@@ -74,12 +74,12 @@ func mapContoh() {
 	// Kombinasi slice dan map
 
 	var people = []map[string]string{
-		{"name": "Jux", "age", "25"},
-		{"name": "John", "age", "15"},
-		{"name": "Juli", "age", "21"},
+		{"name": "Jux", "age": "25"},
+		{"name": "John", "age": "15"},
+		{"name": "Juli", "age": "21"},
 	}
 
 	for i, person := range people {
-		fmt.Printf()
+		fmt.Printf("Index: %d, name: %s, age: %s\n", i, person["name"], person["age"])
 	}
 }
