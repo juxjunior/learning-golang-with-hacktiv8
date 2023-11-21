@@ -1,3 +1,4 @@
+// Author: Imanuel Juan Junior
 package main
 
 import (
