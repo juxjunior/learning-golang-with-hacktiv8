@@ -1,4 +1,4 @@
-module golangDay1
+module trainingGolang
 
 go 1.21.4
 
