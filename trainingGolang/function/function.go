@@ -56,4 +56,4 @@ func calculate(d float64) (float64, float64) {
 	return luas, keliling
 }
 
-// contoh menggunakan predefined return values
+// contoh menggunakan function predefined return values
