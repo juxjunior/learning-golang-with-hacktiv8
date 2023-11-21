@@ -11,6 +11,8 @@ func main() {
 	mainUntukPointerToStruct()
 	mainUntukEmbededStruct()
 	mainUntukAnonymousStruct()
+	mainUntukSliceToStructStruct()
+	mainUntukSliceOfAnonStruct()
 }
 
 // contoh struct sederhana
@@ -101,4 +103,31 @@ func mainUntukAnonymousStruct() {
 	}
 	fmt.Printf("\nEmployee1: %+v\n", employee1)
 	fmt.Printf("Employee1: %+v\n", employee2)
+}
+
+// contoh slice to struct
+func mainUntukSliceToStructStruct() {
+	var people = []Person{ //menggunakan struct Person di atas
+		{name: "Airell", age: 23},
+		{name: "Ananda", age: 23},
+		{name: "Mailo", age: 23},
+	}
+	for _, v := range people {
+		fmt.Printf("%+v\n", v)
+	}
+}
+
+// contoh slice dari anonymous struct
+func mainUntukSliceOfAnonStruct() {
+	var employee = []struct {
+		person   Person
+		division string
+	}{
+		{person: Person{name: "Airell", age: 23}, division: "Curriculum Developer"},
+		{person: Person{name: "Ananda", age: 23}, division: "Finance"},
+		{person: Person{name: "Mailo", age: 21}, division: "Marketing"},
+	}
+	for _, v := range employee {
+		fmt.Printf("%+v\n", v)
+	}
 }
