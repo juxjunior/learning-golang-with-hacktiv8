@@ -15,7 +15,7 @@ type Person struct {
 }
 
 func (p Person) Introduce(msg string) string {
-	return fmt.Sprintf("%s My name is % and I'm %d years old", msg, p.name, p.age)
+	return fmt.Sprintf("%s My name is %s and I'm %d years old", msg, p.name, p.age)
 }
 
 func mainUntukMethod() {

@@ -42,7 +42,7 @@ func mainUntukPenggantianValueLewatPointer() {
 	fmt.Println("secondNumber (value) :", *secondPerson)
 	fmt.Println("secondNumber (memori address) :", secondPerson)
 
-	fmt.Println("\n", strings.Repeat("#", 30), "\n")
+	fmt.Println("\n", strings.Repeat("#", 30))
 
 	*secondPerson = "Doe"
 
