@@ -3,8 +3,8 @@ package method
 import (
 	"fmt"
 	"strings"
-	"trainingGolang/assingment1/function"
-	"trainingGolang/assingment1/model"
+	"trainingGolang/assignment1/function"
+	"trainingGolang/assignment1/model"
 )
 
 type CustomPeserta struct {
