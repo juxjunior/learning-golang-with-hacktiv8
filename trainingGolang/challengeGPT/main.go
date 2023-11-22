@@ -10,7 +10,8 @@ import (
 )
 
 // Replace "YOUR_OPENAI_API_KEY" with your actual API key
-const apiKey = "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"
+// const apiKey = "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"
+const apiKey = "YOUR_OPENAI_API_KEY"
 
 // const apiKey = "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"
 const endpoint = "https://api.openai.com/v1/chat/completions"
