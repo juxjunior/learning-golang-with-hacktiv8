@@ -1,7 +1,7 @@
 package function
 
 import (
-	"trainingGolang/assingment1/model"
+	"trainingGolang/assignment1/model"
 )
 
 func DataPeserta() []model.Peserta {

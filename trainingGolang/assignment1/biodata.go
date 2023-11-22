@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"trainingGolang/assingment1/method"
-	"trainingGolang/assingment1/model"
+	"trainingGolang/assignment1/method"
+	"trainingGolang/assignment1/model"
 )
 
 func main() {
